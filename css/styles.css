@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+  color: white;
+
+}
+img .float_left {
+  float: left;
+}
+
+nav {
+  padding-top: 0;
+  margin: 0 auto;
+}
+nav ul {
+  /* overflow:hidden; */
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 20px 10px 20px 10px;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav li a {
+  display: block;
+  padding: 10px 20px;
+  /* width: 100%; */
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/* マウスポインタを置いた時のアクション */
+nav li a:hover {
+  background: gray;
+  opacity: 0.6;
+}
+
+.main-title {
+  text-align:center;
+}
+
+.main-bg {
+  background: url(../img/fall_forest_5k-2560x1440.jpg);
+  background-attachment: fixed;
+  background-size: cover; /*画面全体に表示*/
+}
+
+.profile {
+  color: #f8f8f8;
+  width: auto;
+  font-size: 14px;
+  float: left;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+.profile h1 {
+  border-bottom: 1px solid white;
+}
+
+.contact ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 20px 10px 40px 10px;
+  color: white;
+}
+
+.contact li {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 50px;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
